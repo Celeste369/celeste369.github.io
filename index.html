@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Unidad 2: Bootstrap</title>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+            <form>
+                <div class="row g-2">
+                <div class="form-group col-md-6">
+                    <label for="nombre">Nombre de pila</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido">
+                </div>
+                </div>
+                <label for="nombre-usuario">Nombre de usuario</label>
+                <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input type="text" class="form-control" placeholder="Nombre de usuario" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <div class="form-group">
+                <label for="direccion">Correo electronico (opcional)</label>
+                <input type="email" class="form-control" id="correo" placeholder="you@example.com">
+                </div>
+                <div class="form-group">
+                <label for="direccion">Habla a</label>
+                <input type="text" class="form-control" id="direccion" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                <label for="direccion2">Direccion 2 (opcional)</label>
+                <input type="text" class="form-control" id="direccion2" placeholder="Apartmento o suite">
+                </div>
+                <div class="row g-3">
+                <div class="form-group col-md-4">
+                    <label for="pais">Pais</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Escoger...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="estado">Estado</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Escoger...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="codigoPostal">Codigo Postal</label>
+                    <input type="number" class="form-control" id="codigoPostal">
+                </div>
+                </div>
+
+            
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                    La direccion de envio es la misma direccion de facturacion
+                    </label>
+                </div>
+            
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                    Guarde esta informacion para la proxima vez
+                    </label>
+                </div>
+               
+               
+            </form>
+            </div>
+        </div>  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   </body>
+</html>
